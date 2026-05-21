@@ -1,0 +1,89 @@
+body {
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background: white;
+  padding: 30px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.login-box h2 {
+  text-align: center;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background: #0056b3;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.demo-credentials {
+  margin-top: 20px;
+  background: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.dashboard {
+  padding: 40px;
+}
+
+.credentials-box,
+.result-box {
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.api-buttons {
+  margin-top: 20px;
+}
+
+.api-buttons button {
+  margin-right: 15px;
+  padding: 12px 20px;
+  border: none;
+  background: green;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.api-buttons button:hover {
+  background: darkgreen;
+}
+
+pre {
+  background: #222;
+  color: #00ff00;
+  padding: 15px;
+  border-radius: 5px;
+}
